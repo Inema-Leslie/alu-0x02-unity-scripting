@@ -327,3 +327,12 @@ Received Import Request.
 Start importing Assets/MobileDependencyResolver/Editor/1.2.185/Google.PackageManagerResolver.dll using Guid(bf27b3f704244da0af729a6737adb7f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b28baf08999ae9bc50680ad5e0236060') in 0.0317977 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=057a34f8039d9d099c4f7f0707df72aa DependenciesID=9d0f250c826764c1202d9754d4b6b8b6 StaticDependenciesID=94a1bef7d6f3c64db31cd3a5da6dbf0d 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 1226.509799 seconds.
+  path: Assets/mazeSettings.lighting
+  importAddress: Guid(128f6c8ad2fe46e4199f0e16cb66028f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/mazeSettings.lighting using Guid(128f6c8ad2fe46e4199f0e16cb66028f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)LightingSettings: switching bake backend from 2 to 1.
+ -> (Import Result ID: '32ae518a900a0b303e48f192695b6910') in 0.6058291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf5c162e7325355fcaa8fa20dbd066a4 DependenciesID=f7ff95cbc51dfd1b8bd2de8532922f73 StaticDependenciesID=106c22a7c412a0f12953a07ec30a2277 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
