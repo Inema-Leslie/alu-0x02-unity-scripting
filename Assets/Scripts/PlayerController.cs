@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 10f;
     private Rigidbody rb;
     private int score = 0;
+    public int health = 5;
 
     void Start()
     {
@@ -26,6 +27,11 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             score++;
             Debug.Log("Score: " + score);
+        }
+        if (other.gameObject.CompareTag("Trap"))
+        {
+            health--;
+            Debug.Log("Health:" + health);
         }
     }
 }
