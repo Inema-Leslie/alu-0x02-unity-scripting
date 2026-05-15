@@ -1636,3 +1636,19 @@ Received Import Request.
 Start importing Assets/Materials/goal.mat using Guid(7d54ddc6b170ed74997763cbe674bc8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '573ef08b9ec26e5ded23e5a1d15f104a') in 6.6513197 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afbec48cf4d004b0b81df44243d68aab DependenciesID=6d4869a81345c4ad0e5ac122d06364cb StaticDependenciesID=0f2cf6ee5a1438aa903952ebd109bb45 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 132.283935 seconds.
+  path: Assets/maze.unity
+  importAddress: Guid(90e0410ef64dca34bab9040a45a08f7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/maze.unity using Guid(90e0410ef64dca34bab9040a45a08f7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e198b0aba246c84adea31022211f970a') in 0.6069251 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4fe8a3025f30419ba62e9cb2e638fa55 DependenciesID=7e0d5f545f52b6492e4d27f1e38a2ded StaticDependenciesID=1dfa617bc26e2832e65ce696fb61ccf3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.244216 seconds.
+  path: Assets/maze.unity
+  importAddress: Guid(90e0410ef64dca34bab9040a45a08f7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/maze.unity using Guid(90e0410ef64dca34bab9040a45a08f7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8923fef5bdbc7157e8bb5bdf2c0c3962') in 0.2374726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8789e5a5ec3f0ba38c4ef3cdd9e88db4 DependenciesID=c83f80a8abf65d1aaeff2bf380090421 StaticDependenciesID=2fa8e6832be41f1715555add3a29f8fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
