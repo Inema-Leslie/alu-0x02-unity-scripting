@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 10f;
     private Rigidbody rb;
+    private int score = 0;
 
     void Start()
     {
@@ -14,8 +15,17 @@ public class PlayerController : MonoBehaviour
     {
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
-
         Vector3 movement = new Vector3(moveX, 0f, moveZ);
         rb.AddForce(movement * speed);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Pickup"))
+        {
+            other.gameObject.SetActive(false);
+            score++;
+            Debug.Log("Score: " + score);
+        }
     }
 }
