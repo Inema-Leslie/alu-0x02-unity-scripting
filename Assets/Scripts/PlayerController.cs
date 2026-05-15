@@ -20,6 +20,13 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(movement * speed);
     }
 
+    void Update()
+    {
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+        Vector3 movement = new Vector3(moveX, 0f, moveZ);
+        rb.AddForce(movement * speed);
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Pickup"))
