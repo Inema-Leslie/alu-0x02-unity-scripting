@@ -735,3 +735,240 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Refreshing native plugins compatible for Editor in 59.41 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 41.441 seconds
+Domain Reload Profiling: 108676ms
+	BeginReloadAssembly (9219ms)
+		DisableScriptedObjects (508ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1132ms)
+	RebuildCommonClasses (2996ms)
+	RebuildNativeTypeToScriptingClass (281ms)
+	initialDomainReloadingComplete (6255ms)
+	LoadAllAssembliesAndSetupDomain (48476ms)
+		LoadAssemblies (42268ms)
+		AnalyzeDomain (10725ms)
+			TypeCache.Refresh (910ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (9519ms)
+			ResolveRequiredComponents (119ms)
+	FinalizeReload (41450ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (149ms)
+			BeforeProcessingInitializeOnLoad (7844ms)
+			ProcessInitializeOnLoadAttributes (10995ms)
+			ProcessInitializeOnLoadMethodAttributes (4902ms)
+			AfterProcessingInitializeOnLoad (73ms)
+			EditorAssembliesLoaded (6ms)
+		AwakeInstancesAfterBackupRestoration (127ms)
+Refreshing native plugins compatible for Editor in 106.05 ms, found 3 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3209 unused Assets / (0.8 MB). Loaded Objects now: 3829.
+Memory consumption went from 92.5 MB to 91.8 MB.
+Total: 130.337200 ms (FindLiveObjects: 10.665100 ms CreateObjectMapping: 3.334200 ms MarkObjects: 107.290400 ms  DeleteObjects: 8.474500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Apple.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Security.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.WinRT.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.WinRT.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 106.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 47.107 seconds
+Domain Reload Profiling: 69070ms
+	BeginReloadAssembly (4650ms)
+		DisableScriptedObjects (93ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (888ms)
+	RebuildCommonClasses (1043ms)
+	RebuildNativeTypeToScriptingClass (250ms)
+	initialDomainReloadingComplete (1857ms)
+	LoadAllAssembliesAndSetupDomain (14154ms)
+		LoadAssemblies (11949ms)
+		AnalyzeDomain (4527ms)
+			TypeCache.Refresh (78ms)
+			BuildScriptInfoCaches (4344ms)
+			ResolveRequiredComponents (63ms)
+	FinalizeReload (47115ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			BeforeProcessingInitializeOnLoad (18708ms)
+			ProcessInitializeOnLoadAttributes (18027ms)
+			ProcessInitializeOnLoadMethodAttributes (5755ms)
+			AfterProcessingInitializeOnLoad (140ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (133ms)
+Refreshing native plugins compatible for Editor in 64.08 ms, found 3 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3209 unused Assets / (132.0 KB). Loaded Objects now: 3830.
+Memory consumption went from 92.6 MB to 92.4 MB.
+Total: 491.466200 ms (FindLiveObjects: 24.884200 ms CreateObjectMapping: 6.142300 ms MarkObjects: 442.169100 ms  DeleteObjects: 17.052300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Apple.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Security.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.WinRT.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.WinRT.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 151.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 50.040 seconds
+Domain Reload Profiling: 192704ms
+	BeginReloadAssembly (14905ms)
+		DisableScriptedObjects (222ms)
+		CreateAndSetChildDomain (934ms)
+	RebuildCommonClasses (2159ms)
+	RebuildNativeTypeToScriptingClass (304ms)
+	initialDomainReloadingComplete (13944ms)
+	LoadAllAssembliesAndSetupDomain (111337ms)
+		LoadAssemblies (83354ms)
+		AnalyzeDomain (37783ms)
+			TypeCache.Refresh (7184ms)
+			BuildScriptInfoCaches (28112ms)
+			ResolveRequiredComponents (426ms)
+	FinalizeReload (50055ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (103ms)
+			BeforeProcessingInitializeOnLoad (6111ms)
+			ProcessInitializeOnLoadAttributes (13700ms)
+			ProcessInitializeOnLoadMethodAttributes (17046ms)
+			AfterProcessingInitializeOnLoad (212ms)
+			EditorAssembliesLoaded (14ms)
+		AwakeInstancesAfterBackupRestoration (458ms)
+Refreshing native plugins compatible for Editor in 306.11 ms, found 3 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3209 unused Assets / (142.7 KB). Loaded Objects now: 3831.
+Memory consumption went from 92.4 MB to 92.2 MB.
+Total: 776.901800 ms (FindLiveObjects: 149.720100 ms CreateObjectMapping: 17.200200 ms MarkObjects: 555.565400 ms  DeleteObjects: 53.095800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2060.626434 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  importAddress: Guid(dfc1f89ed8a16434eb07ffeaceba5ad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerController.cs using Guid(dfc1f89ed8a16434eb07ffeaceba5ad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d0723226802fecd15ea32144b1ce729') in 4.0885885 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f663bf59fd118887e1fbbc7a71536a97 DependenciesID=d6ceae8b0664922b3b504698108951fc StaticDependenciesID=f90c8118778e0fc82455faaa52eed616 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.336926 seconds.
+  path: Assets/Scripts/CameraController.cs
+  importAddress: Guid(4db15ac937de74f48a8adc1c06c2da1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CameraController.cs using Guid(4db15ac937de74f48a8adc1c06c2da1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '801ad9ad831769857a9c092e2b61eed5') in 0.0419264 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e44a5cb133ace225b7f1f9bbba712355 DependenciesID=81bbbcfc19606c0e675e605809879a61 StaticDependenciesID=d6c867e07a6fc6199c56b3ec4a985ba5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.610058 seconds.
+  path: Assets/Materials/coin.mat
+  importAddress: Guid(6e228a04e6f9f7641af4f78ed0aea359) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/coin.mat using Guid(6e228a04e6f9f7641af4f78ed0aea359) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd466395dc454be761ab85365b7a663aa') in 0.6447987 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ef042d1c6adf300aea200c0c37df0d0 DependenciesID=0d7714c031d09389eec43b5ed9ed669d StaticDependenciesID=b1734bf54044dcda9fad566ae6629080 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.493815 seconds.
+  path: ProjectSettings/TagManager.asset
+  importAddress: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3368c7aa62851272be8371f95885da42') in 3.2449142 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29f54aeb3707b7e7ec67b36508eeded7 DependenciesID=7e8b4e6b8a7387ebf7eb8fe7fe02f135 StaticDependenciesID=eac2490006dfe98ab747dba2decc4e48 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.722313 seconds.
+  path: Assets/Prefabs
+  importAddress: Guid(f2f9cacfdee236c40ac826a8914bd3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(f2f9cacfdee236c40ac826a8914bd3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd433b1de895dc36643dd742a80655322') in 0.1253198 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a49375e21bb6cba53e39ac63d04463c2 DependenciesID=94b2f3ceb0a380fbabf851718d9f1f0f StaticDependenciesID=9c1918862e330b2d1704d9f3aa673a90 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.896197 seconds.
+  path: Assets/Prefabs
+  importAddress: Guid(f2f9cacfdee236c40ac826a8914bd3bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs using Guid(f2f9cacfdee236c40ac826a8914bd3bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae162770c93574e67b23feebd882f11d') in 1.931257 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2093d45d90b862795cc82ce864a24c51 DependenciesID=d787b9cec01ade8d2d7c3c7531315506 StaticDependenciesID=11c47327da6143df6c086786dae8e980 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.765574 seconds.
+  path: Assets/Prefabs/Coin.prefab
+  importAddress: Guid(e43f9e00328494f49a6a0d5b30ac25a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Coin.prefab using Guid(e43f9e00328494f49a6a0d5b30ac25a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '658c665669456cb3c185c356b395669e') in 3.7052056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d38ff2eb0b045008e5619dd8688487a DependenciesID=e2b4e49c4b3ed27fa612dab383d50191 StaticDependenciesID=af378084713b6a23dba154b929365b00 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
